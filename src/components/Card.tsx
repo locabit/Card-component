@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = ({
   const [icon, setIcon] = useState<string>("fa-solid fa-arrow-down");
   const [show, setShow] = useState<boolean>(false);
 
-  const collapsableFunc = () => {
+  const getIcon = () => {
     if (show === false) {
       setIcon("fa-solid fa-arrow-up");
     } else {
@@ -66,7 +66,7 @@ const Card: React.FC<CardProps> = ({
         <>
           <div className="collapsable">
             <p className="collapsable-title">{collapsableTitle}</p>
-            <button className={icon} onClick={collapsableFunc}></button>
+            <button className={icon} onClick={getIcon}></button>
           </div>
           {show && renderCardContent()}
         </>
