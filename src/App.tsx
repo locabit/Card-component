@@ -33,7 +33,7 @@ function App() {
       <Card
         collapsable
         collapsableTitle="Show more"
-        title="Collabsable Title"
+        title="Collapsable Title"
         subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quam optio delectus, alias cumque eligendi odio vero corporis tempora id consequatur, pariatur fuga. Totam, pariatur reprehenderit? Non maiores asperiores dicta?"
       />
     </div>
